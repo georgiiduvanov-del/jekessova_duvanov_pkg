@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'first_node = jekessova_duvanov_pkg.first_node:main',
+            'time_printer = jekessova_duvanov_pkg.time_printer:main',
         ],
     },
 )
