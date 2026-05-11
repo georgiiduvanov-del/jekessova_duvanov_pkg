@@ -24,6 +24,10 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'even_publisher = jekessova_duvanov_pkg.even_number_publisher:main',
+            'overflow_listener = jekessova_duvanov_pkg.overflow_listener:main',
+            'listener = jekessova_duvanov_pkg.listener:main',
+            'talker = jekessova_duvanov_pkg.talker:main',
             'first_node = jekessova_duvanov_pkg.first_node:main',
             'time_printer = jekessova_duvanov_pkg.time_printer:main',
         ],
